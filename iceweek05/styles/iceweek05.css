@@ -1,0 +1,24 @@
+
+
+
+body{
+    background-color:#000272;
+text-align: center;
+}
+.menu{
+    display: inline;
+    width: 20%;
+    border: 14px solid #bbb;
+    border-radius: 70%;
+    margin-inline: 50px;
+    margin-top: 60px;
+
+
+}
+#background {
+    display: inline-block;
+    min-width: 81%;
+    max-width: 81%;
+    margin-top: 5px;
+
+}
