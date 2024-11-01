@@ -44,7 +44,6 @@ h2 {
     padding: 0;
 }
 nav a{
-    background-color: rgba(20,30,13, .7);
     color: #d9c2a3;
     text-decoration: none;
     padding: 35px;
@@ -52,13 +51,14 @@ nav a{
 }
     nav a:hover {
         background-color: #d9c2a3;
-        color: black;
+        color: rgb(255, 255, 255);
     }    
 
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(0, 0, 0, 0.992);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
-
                     
 .book, .join {
     background-color: #d9c2a3;
@@ -71,7 +71,7 @@ header {
 }
 
     .book:hover, .join:hover {
-    background-color: #fcfbfb; 
+    background-color: #ffffff; 
 }
 
     #background {
