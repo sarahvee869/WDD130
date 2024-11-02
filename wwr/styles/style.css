@@ -43,6 +43,10 @@ h2 {
     margin: 0;
     padding: 0;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a{
     color: #d9c2a3;
     text-decoration: none;
@@ -99,6 +103,8 @@ main section img {
 
 #logo_link{
     padding-top:5px;
+    justify-self: center;
+    align-self: center;
 }
 footer {
     background-color: #d9c2a3; 
