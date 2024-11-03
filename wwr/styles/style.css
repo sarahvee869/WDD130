@@ -48,13 +48,13 @@ body {
 }
 
 header {
-    background-color:rgba(45, 84, 96, 0.7);
+    background-color:rgba(57, 30, 109, 0.7);
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 nav a:hover {
-    background-color: rgba(41, 114, 136, 0.886);
+    background-color: rgba(38, 49, 149, 0.886);
     color: #fffcfc;
 }
 
