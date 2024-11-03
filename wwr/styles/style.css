@@ -218,7 +218,7 @@ main.home-grid {
 }
 
 .camping-card {
-    grid-column: 5 / 7; 
+    grid-column: 6 / 8; 
     grid-row: 2 / 3;    
 }
 
