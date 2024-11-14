@@ -1,5 +1,5 @@
 body {
-    background-color: #092327;
+    background-color: #000000;
 }
 
 h1 {
@@ -43,7 +43,6 @@ margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #3f5b8a;
     color: white; 
-    border: 1px red solid;
 }
 
 .bottom > div {
