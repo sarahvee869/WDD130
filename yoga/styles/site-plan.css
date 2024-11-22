@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Sour Gummy";
+  --paragraph-font: "Open Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
@@ -173,3 +173,25 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.benefits-list {
+    margin: 0;             
+    padding: 0 20px;      
+
+.benefits-list dt {
+    font-weight: bold;     
+    margin-top: 10px;      
+    text-align: left;     
+
+.benefits-list dd {
+    margin-left: 20px;     
+    color: #555;           
+    line-height: 1.6;     
+    text-align: left;   
+
+    
