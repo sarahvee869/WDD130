@@ -1,4 +1,5 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -8,7 +9,7 @@ body {
   }
   
   header {
-    background-color: #8bc34a;
+    background-color: #B4C4AE;
     color: white;
     text-align: center;
     padding: 20px;
@@ -19,7 +20,7 @@ body {
   }
   
   nav {
-    background-color: #4CAF50;
+    background-color: #3c81be;
     padding: 10px 0;
     text-align: center;
   }
@@ -44,7 +45,7 @@ body {
   }
   
   section h2 {
-    color: #4CAF50;
+    color: #4c93af;
     margin-bottom: 15px;
   }
   
@@ -56,7 +57,7 @@ body {
   
   .benefits-list dt {
     font-weight: bold;
-    color: #4CAF50;
+    color: #3d2253;
     margin-top: 10px;
   }
   
