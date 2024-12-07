@@ -1,0 +1,246 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #B4C4AE;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1, header h2 {
+    margin: 5px;
+    header h1 {
+    font-size: 300px;
+    font-weight: bold;
+  }
+  }
+  
+  nav {
+    background-color: #3c81be;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #4c93af;
+    margin-bottom: 15px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .benefits-list dt {
+    font-weight: bold;
+    color: #3d2253;
+    margin-top: 10px;
+  }
+  
+  .benefits-list dd {
+    margin: 5px 0 15px 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  /* Main Content Layout */
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  #home {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  #home img {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+  }
+  
+  #home p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  /* Flexbox for the second image and text */
+  #home .image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  #home .image-text-container img {
+    flex: 1;
+    width: 50%; /* Adjusts image size */
+    height: auto;
+  }
+  
+  #home .image-text-container p {
+    flex: 1;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
+  /* Footer Styles */
+
+  #why-visit {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  #why-visit div {
+    flex: 1;
+  }
+  
+  #why-visit img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #why-visit p {
+    flex: 1;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  #benefits {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  #benefits div {
+    flex: 1;
+    order: 1; /* Ensures images are on the left */
+  }
+  
+  #benefits p {
+    flex: 1;
+    order: 2; /* Ensures text is on the right */
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  #benefits img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
